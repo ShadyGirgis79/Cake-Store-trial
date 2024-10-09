@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html class="background">
+<head>
+
+	<title>Cake It</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+  <script defer src="RegisterCheck.js"></script>
+  <script defer src="Order.js"></script>
+  <link rel="icon" type="image/x-icon" href="Images/CakeLogo.png">
+
+
+</head>
+
+	<body>
+    <header>
+      <div class="navbar">
+          <a href="MainMenu.html">Home</a>
+
+          <div class="subnav">
+            <button class="subnavbtn">Desserts</button>
+            <div class="subnav-content">
+              <a href="Egyptian.html">Egyptian</a>
+              <div class="dropdown">
+                <button class="dropbtn">Foreign</button>
+                <div class="dropdown-content">
+                  <a href="American.html">American</a>
+                  <a href="British.html">British</a>
+                  <a href="French.html">French</a>
+                  <a href="Japanese.html">Japanese</a>     
+                </div>
+              </div>
+              
+            </div>
+          </div> 
+
+          <a href="BirthdaySp.html">Birthday Special</a>
+
+          <div class="subnav">
+            <button class="subnavbtn">Recipes</button>
+            <div class="subnav-content">
+              <a href="EgyRecipes.html">Egyptian</a>
+              <a href="ForRecipe.html">Foreign</a>
+              <a href="Upload.html">Upload Your Recipe</a>
+            </div>
+          </div> 
+
+          <a href="Register.html">Register</a>
+
+          <a href="LogIN.html">Log In</a>
+
+          <a href="Profile.html">Profile</a>
+
+          <a href="About.html">About</a>
+
+          <img id="logo" src="Images/CakeLogo.png" alt="Logo">
+
+        </div>
+    </header>
+
+      <h1>Creating Account</h1>
+
+
+      <center>
+
+      <form id="regis" action="" class="format">
+
+     <label for="User1">User Name:</label>
+     <input type="text" id="User1" name="User" placeholder="Mickey Mouse" required>
+
+     <br><br>
+
+     <label for="accName">Account Name:</label>
+     <input type="text" id="accName" name="AccountName" placeholder="Mickey The Great" required>
+
+     <br><br>
+
+     <label for="email1">Email:</label>
+     <input type="email" id="email1" name="email" placeholder="mickeymouse@clubhouse.com" required>
+
+     <br><br>
+
+     <label for="address">Address:</label>
+     <input type="text" id="address" name="Address" placeholder="Mickey Mouse Club house , Disney Land" required>
+
+     <br><br>
+
+     <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" pattern="01[0-2,5]{1}[0-9]{8}" placeholder="01xxxxxxxxx" required>
+
+      <br><br>
+
+     <label for="birth">Birthday:</label>
+     <input type="date" id="birth" name="birthday" max="2012-01-01" min="1900-01-01" required>
+
+     <br><br>
+
+     <label for="gender">Gender:</label>
+
+     <label for="male">Male</label>
+     <input type="radio" value="Male" id="male" name="gender" required>
+
+     <label for="female">Female</label>
+     <input type="radio" value="Female" id="female" name="gender" required>
+
+     <br><br>
+
+       <label for="pass1">New Password:</label>
+       <input type="password" id="pass1" name="pass" maxlenght="20" required>
+       <button >
+        <img id="eye1" class="eye" src="Images/HideEye.png" alt="Hide">
+       </button>
+
+           <br><br>
+
+       <label for="pass2">Check Password:</label>
+       <input type="password" id="pass2" name="pass" maxlenght="20" required>
+       <button>
+        <img id="eye2" class="eye" src="Images/HideEye.png" alt="Hide">
+       </button>
+
+
+       <br><br>
+         
+           <label for="Flavor">Favorite Flavor:</label>
+           <br>
+           <label for="Flavor">Chocolate</label>
+           <input type="checkbox" value="Chocolate" id="Flavor" name="Chocolate" class="check" style="position: relative; right:-3px;">
+           <br>
+           <label for="Flavor">Vanilla</label>
+           <input type="checkbox" value="Vanilla" id="Flavor" name="Vanilla" style="position: relative; right: -13px;" >
+           <br>
+           <label for="Flavor">Caramel</label>
+           <input type="checkbox" value="Caramel" id="Flavor" name="Caramel" style="position: relative; right: -9px;">
+           <br>
+           <label for="Flavor">Strawberry</label>
+           <input type="checkbox" value="Strawberry" id="Flavor" name="Strawberry" style="position: relative; right: -1px;">
+           <br>
+           <label for="Flavor">Lotus</label>
+           <input type="checkbox" value="Lotus" id="Flavor" name="Lotus" style="position: relative; right: -19px;">
+           <br>
+           <label for="Flavor">Pistachio</label>
+           <input type="checkbox" value="Pistachio" id="Flavor" name="Pistachio" style="position: relative; right: -8px;">
+     
+           <br>
+           <br>
+
+           <label for="DesLove">Desserts Love:</label>
+           <input type="range" id="DesLove" name="DessertLove">
+
+           <br>
+           <br>
+
+           <Strong>
+            <div id="error1"></div>
+           </Strong>
+
+           </center>
+
+          <input type="submit" value="Submit" 
+            style="float: right; font-size: 20px;  position: relative; right: 200px;">
+
+     
+     <br><br>
+
+   </form>
+
+   <br>
+
+
+   <footer>
+    <aside>
+       Advertisement Banner
+
+       <button class="ChangeColor">
+         Change Color
+        </button>
+    </aside>
+</footer>
+
+  
+	</body>
+</html>

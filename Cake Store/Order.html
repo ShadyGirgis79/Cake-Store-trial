@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html class="default">
+<head>
+
+	<title>Cake It</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+  <!-- <script defer src="ColorChange.js"></script></script> -->
+
+  <script defer src="Order.js"></script>
+  <link rel="icon" type="image/x-icon" href="Images/CakeLogo.png">
+
+
+</head>
+
+	<body>
+    <header>
+      <div class="navbar">
+          <a href="MainMenu.html">Home</a>
+
+          <div class="subnav">
+            <button class="subnavbtn">Desserts</button>
+            <div class="subnav-content">
+              <a href="Egyptian.html">Egyptian</a>
+              <div class="dropdown">
+                <button class="dropbtn">Foreign</button>
+                <div class="dropdown-content">
+                  <a href="American.html">American</a>
+                  <a href="British.html">British</a>
+                  <a href="French.html">French</a>
+                  <a href="Japanese.html">Japanese</a>     
+                </div>
+              </div>
+              
+            </div>
+          </div> 
+
+          <a href="BirthdaySp.html">Birthday Special</a>
+
+          <div class="subnav">
+            <button class="subnavbtn">Recipes</button>
+            <div class="subnav-content">
+              <a href="EgyRecipes.html">Egyptian</a>
+              <a href="ForRecipe.html">Foreign</a>
+              <a href="Upload.html">Upload Your Recipe</a>
+            </div>
+          </div> 
+
+          <a href="Register.html">Register</a>
+
+          <a href="LogIN.html">Log In</a>
+
+          <a href="Profile.html">Profile</a>
+
+          <a href="About.html">About</a>
+
+          <img id="logo" src="Images/CakeLogo.png" alt="Logo">
+
+        </div>
+      </header>
+
+
+      <h1 id="paid">Payment</h1>
+
+        <center>
+            <form action="Purchase.html" class="format">
+               
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" name="amount" min="1" max="100">
+
+                <br>
+                <br>
+                <br>
+
+                <label for="payment">Payment:</label>
+                
+                <select id="payment">
+                    <option value="visa">Visa</option>
+                    <option value="fawry">Fawry</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="cash">Cash</option>
+                    <option value="giftcard">Giftcard</option>
+                </select>
+    
+                <p style="font-size: 20px;" id="total">Total = 0 EGP</p>
+
+
+
+                <input type="submit" value="Pay" src="Purchase.html"
+                style="float: right; font-size: 20px;  position: relative; right: 50px;">
+
+              <br>
+             
+            </form>
+
+            <br>
+
+            <p>
+              If you have giftcard you will have a 20% discount
+            </p>
+                </center>
+    
+                <br>
+                
+
+                <footer>
+                  <aside>
+                     Advertisement Banner
+           
+                     <button class="ChangeColor">
+                       Change Color
+                      </button>
+                  </aside>
+           </footer>
+           
+	</body>
+</html>

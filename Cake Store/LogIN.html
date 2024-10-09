@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html class="background">
+<head>
+
+	<title>Cake It</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+  <script defer src="MainLogin.js"></script>
+  <script defer src="Order.js"></script>
+  <link rel="icon" type="image/x-icon" href="Images/CakeLogo.png">
+
+
+</head>
+
+	<body>
+    <header>
+      <div class="navbar">
+          <a href="MainMenu.html">Home</a>
+
+          <div class="subnav">
+            <button class="subnavbtn">Desserts</button>
+            <div class="subnav-content">
+              <a href="Egyptian.html">Egyptian</a>
+              <div class="dropdown">
+                <button class="dropbtn">Foreign</button>
+                <div class="dropdown-content">
+                  <a href="American.html">American</a>
+                  <a href="British.html">British</a>
+                  <a href="French.html">French</a>
+                  <a href="Japanese.html">Japanese</a>     
+                </div>
+              </div>
+              
+            </div>
+          </div> 
+
+          <a href="BirthdaySp.html">Birthday Special</a>
+
+          <div class="subnav">
+            <button class="subnavbtn">Recipes</button>
+            <div class="subnav-content">
+              <a href="EgyRecipes.html">Egyptian</a>
+              <a href="ForRecipe.html">Foreign</a>
+              <a href="Upload.html">Upload Your Recipe</a>
+            </div>
+          </div> 
+
+          <a href="Register.html">Register</a>
+
+          <a href="LogIN.html">Log In</a>
+
+          <a href="Profile.html">Profile</a>
+
+          <a href="About.html">About</a>
+
+          <img id="logo" src="Images/CakeLogo.png" alt="Logo">
+
+        </div>
+      </header>
+
+            <h1>Log In</h1>
+
+        <center>
+
+		    <form id="account" action="MainMenu.html" class="format" onsubmit="LogInUser(event)">
+
+                <br><br>
+
+			    <label for="User2">User Name:</label>
+			    <input type="text" id="User2" name="User" placeholder="Mickey Mouse" required>
+
+			    <br><br>
+
+			    <label for="email2">Email:</label>
+			    <input type="email" id="email2" name="email" placeholder="mickeymouse@clubhouse.com" required>
+
+			    <br><br>
+
+			    <label for="passCheck">Password:</label>
+			    <input type="password" id="passCheck" name="pass" maxlenght="20" required>
+
+			    <br><br>
+
+          <div id="error2"></div>
+
+          <br>
+
+				<a href="ForgetPass.html">
+                	<button type="button">Forget Password</button>
+				</a>
+
+          <br><br>
+
+				<input type="submit" value="Submit"
+				style="float: right; font-size: 20px; position: relative; right: 0px;">
+
+			    <br><br>
+
+
+
+		    </form>
+        </center>
+
+        <br>
+        <br>
+        <br>
+
+        <footer>
+          <aside>
+             Advertisement Banner
+   
+             <button class="ChangeColor">
+               Change Color
+              </button>
+          </aside>
+   </footer>
+   
+	</body>
+</html>

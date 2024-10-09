@@ -1,0 +1,366 @@
+
+.navbar {
+    overflow: hidden;
+    background-color: #333; 
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: red;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 5px;
+    background-color: red;
+    width: 90%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+#logo{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-right: 40px;
+}
+
+.dropbtn {
+  background-color: red;
+  color: white;
+  padding: 14px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: inherit;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #eee;
+  color: black;
+}
+
+h1{
+  text-align: center;
+    font-style: bold;
+    font-size: 80px;
+    color:rgb(0, 0, 0);
+    text-shadow: 5px 5px 10px rgb(255, 0, 128);
+}
+
+
+#dessert{
+  width: 300px;
+  height: 300px;
+}
+
+.view{
+  position: relative;
+  top: 10%;
+  width: 300px;
+  height: 300px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  transition: transform .2s;
+}
+
+.item {
+  opacity: 1;
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover {
+  transform: scale(1.2); 
+}
+
+.container:hover .middle {
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.text {
+  background-color: #0407aa;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+summary{
+  font-size: 25px;
+}
+
+.description{
+  font-size: 16px;
+}
+
+li{
+  font-size: 20px;
+}
+
+.background{
+    background-image:url('Images/BackCake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.format{
+  width: 400px;
+  height:auto;
+  padding: 20px;
+  background-color: rgba(255, 144, 144, 0.7);
+  border-radius: 50px;
+
+}
+
+.Unchecked{
+  width: 15px;
+  height: 15px;
+}
+
+.default{
+      background: linear-gradient(aquamarine,white);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+}
+
+li{
+  font-size: 30px;
+}
+
+legend{
+  font-size: 25px;
+  font-style: bold;
+}
+
+.load{
+  margin-left: 100px;
+}
+
+#profile{
+  width: 300px;
+  height: 300px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.tab{
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  margin: 0px;
+  text-align: center;
+  padding: 0px;
+  margin-left: 40px;
+  border-collapse: collapse;
+}
+
+.it{
+	border: 2px solid red;
+	padding: 20px;
+	margin: 20px;
+}
+
+.it2{
+	border: 2px solid red;
+  text-align: center;
+  width:max-content;
+	padding: 20px;
+	margin: 20px;
+}
+
+.hero{
+  width: 30%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.card{
+  width: 400px;
+  background: #d1d1d1;
+  padding: 40px;
+  border-radius: 15px;
+  color: #333;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card h2{
+  font-weight: 500;
+  font-size: 30px;
+  color: #000;
+}
+
+.card img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+#upimage{
+  display: block;
+  width: 200px;
+  background: #e3362c;
+  color: #fff;
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#infile{
+  display: none;
+}
+
+#upRecipe{
+  display: block;
+  text-align: center;
+  width: 200px;
+  background: #e3362c;
+  color: #fff;
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#myFile{
+  display: none;
+}
+
+aside{
+  height: 50px;
+  padding-top: 20px;
+  text-align: center;
+  /*background-color: rgb(0, 238, 255);*/
+  color: #eee;
+  background-color: rgb(0, 0, 0);
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  bottom: 0px;
+  width: 100%;
+}
+
+.about{
+  font-size: 20px;
+}
+
+.eye{
+  width: 20px;
+  height: 20px;
+}
+
+
+.ChangeColor{
+  width:100px;
+  height: 40px;
+  text-align: center;
+  margin-left: auto;
+}
+
+#InRecipe{
+  text-align: center;
+  margin-left: auto;
+}
+
+#WriteRecipe{
+  text-align: center;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.youtubeIn{
+  text-align: left;
+}
